@@ -1,0 +1,134 @@
+2026-05-24 16:10:07.270 +07:00 [INF] Now listening on: http://localhost:5045
+2026-05-24 16:10:07.316 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-24 16:10:07.324 +07:00 [INF] Hosting environment: Development
+2026-05-24 16:10:07.326 +07:00 [INF] Content root path: C:\Users\HP\UserManagementAPI
+2026-05-24 16:10:29.199 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/error - application/json 108
+2026-05-24 16:10:29.246 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-24 16:10:29.250 +07:00 [INF] Middleware 1 - Before
+2026-05-24 16:10:29.254 +07:00 [INF] Request masuk: GET /error
+2026-05-24 16:10:29.258 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-24 16:10:29.262 +07:00 [INF] Executing endpoint 'HTTP: GET /error'
+2026-05-24 16:10:29.264 +07:00 [INF] Executed endpoint 'HTTP: GET /error'
+2026-05-24 16:10:29.266 +07:00 [ERR] Global exception caught
+System.Exception: Test error
+   at Program.<>c.<<Main>$>b__0_4() in C:\Users\HP\UserManagementAPI\Program.cs:line 88
+   at lambda_method2(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 82
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 70
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_1>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 48
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 31
+2026-05-24 16:10:29.307 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/error - 500 null null 111.1235ms
+2026-05-24 19:22:10.228 +07:00 [INF] Application is shutting down...
+2026-05-24 19:22:36.232 +07:00 [INF] Now listening on: http://localhost:5045
+2026-05-24 19:22:36.333 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-24 19:22:36.335 +07:00 [INF] Hosting environment: Development
+2026-05-24 19:22:36.338 +07:00 [INF] Content root path: C:\Users\HP\UserManagementAPI
+2026-05-24 19:22:41.189 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/auto - application/json 108
+2026-05-24 19:22:41.275 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-24 19:22:41.280 +07:00 [INF] Middleware 1 - Before
+2026-05-24 19:22:41.287 +07:00 [INF] Request masuk: GET /auto
+2026-05-24 19:22:41.297 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-24 19:22:41.304 +07:00 [INF] Executing endpoint 'HTTP: GET /auto'
+2026-05-24 19:22:41.322 +07:00 [INF] Executed endpoint 'HTTP: GET /auto'
+2026-05-24 19:22:41.324 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-24 19:22:41.328 +07:00 [INF] Response keluar: 200
+2026-05-24 19:22:41.331 +07:00 [INF] Middleware 1 - After
+2026-05-24 19:22:41.337 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/auto - 200 null application/json; charset=utf-8 154.0561ms
+2026-05-24 19:22:52.266 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/custom-json - application/json 108
+2026-05-24 19:22:52.273 +07:00 [INF] Middleware 1 - Before
+2026-05-24 19:22:52.276 +07:00 [INF] Request masuk: GET /custom-json
+2026-05-24 19:22:52.278 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-24 19:22:52.280 +07:00 [INF] Executing endpoint 'HTTP: GET /custom-json'
+2026-05-24 19:22:52.299 +07:00 [INF] Write content with HTTP Response ContentType of application/json
+2026-05-24 19:22:52.302 +07:00 [INF] Executed endpoint 'HTTP: GET /custom-json'
+2026-05-24 19:22:52.304 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-24 19:22:52.306 +07:00 [INF] Response keluar: 200
+2026-05-24 19:22:52.309 +07:00 [INF] Middleware 1 - After
+2026-05-24 19:22:52.312 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/custom-json - 200 34 application/json 47.5523ms
+2026-05-24 19:23:00.053 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/manual-json - application/json 108
+2026-05-24 19:23:00.060 +07:00 [INF] Middleware 1 - Before
+2026-05-24 19:23:00.062 +07:00 [INF] Request masuk: GET /manual-json
+2026-05-24 19:23:00.064 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-24 19:23:00.066 +07:00 [INF] Executing endpoint 'HTTP: GET /manual-json'
+2026-05-24 19:23:00.070 +07:00 [INF] Write content with HTTP Response ContentType of application/json
+2026-05-24 19:23:00.072 +07:00 [INF] Executed endpoint 'HTTP: GET /manual-json'
+2026-05-24 19:23:00.075 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-24 19:23:00.081 +07:00 [INF] Response keluar: 200
+2026-05-24 19:23:00.082 +07:00 [INF] Middleware 1 - After
+2026-05-24 19:23:00.084 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/manual-json - 200 33 application/json 30.8765ms
+2026-05-24 19:23:09.642 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/json - application/json 108
+2026-05-24 19:23:09.646 +07:00 [INF] Middleware 1 - Before
+2026-05-24 19:23:09.647 +07:00 [INF] Request masuk: GET /json
+2026-05-24 19:23:09.650 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-24 19:23:09.652 +07:00 [INF] Executing endpoint 'HTTP: GET /json'
+2026-05-24 19:23:09.656 +07:00 [INF] Writing value of type 'Person' as Json.
+2026-05-24 19:23:09.659 +07:00 [INF] Executed endpoint 'HTTP: GET /json'
+2026-05-24 19:23:09.663 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-24 19:23:09.664 +07:00 [INF] Response keluar: 200
+2026-05-24 19:23:09.667 +07:00 [INF] Middleware 1 - After
+2026-05-24 19:23:09.668 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/json - 200 null application/json; charset=utf-8 26.2325ms
+2026-05-24 19:23:14.812 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/xml - application/json 108
+2026-05-24 19:23:14.816 +07:00 [INF] Middleware 1 - Before
+2026-05-24 19:23:14.818 +07:00 [INF] Request masuk: GET /xml
+2026-05-24 19:23:14.820 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-24 19:23:14.822 +07:00 [INF] Executing endpoint 'HTTP: GET /xml'
+2026-05-24 19:23:14.944 +07:00 [INF] Write content with HTTP Response ContentType of application/xml
+2026-05-24 19:23:14.947 +07:00 [INF] Executed endpoint 'HTTP: GET /xml'
+2026-05-24 19:23:14.949 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-24 19:23:14.950 +07:00 [INF] Response keluar: 200
+2026-05-24 19:23:14.954 +07:00 [INF] Middleware 1 - After
+2026-05-24 19:23:14.955 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/xml - 200 214 application/xml 143.4057ms
+2026-05-24 20:19:15.521 +07:00 [INF] Application is shutting down...
+2026-05-24 20:19:38.544 +07:00 [INF] Now listening on: http://localhost:5045
+2026-05-24 20:19:38.654 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-24 20:19:38.657 +07:00 [INF] Hosting environment: Development
+2026-05-24 20:19:38.660 +07:00 [INF] Content root path: C:\Users\HP\UserManagementAPI
+2026-05-24 20:20:31.295 +07:00 [INF] Application is shutting down...
+2026-05-24 20:20:43.479 +07:00 [INF] Now listening on: http://localhost:5045
+2026-05-24 20:20:43.573 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-24 20:20:43.576 +07:00 [INF] Hosting environment: Development
+2026-05-24 20:20:43.578 +07:00 [INF] Content root path: C:\Users\HP\UserManagementAPI
+2026-05-24 20:21:48.187 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/save-person-files - application/json 108
+2026-05-24 20:21:48.291 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-24 20:21:48.298 +07:00 [INF] Middleware 1 - Before
+2026-05-24 20:21:48.306 +07:00 [INF] Request masuk: GET /save-person-files
+2026-05-24 20:21:48.315 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-24 20:21:48.325 +07:00 [INF] Executing endpoint 'HTTP: GET /save-person-files'
+2026-05-24 20:21:48.471 +07:00 [INF] Setting HTTP status code 200.
+2026-05-24 20:21:48.475 +07:00 [INF] Writing value of type 'String' as Json.
+2026-05-24 20:21:48.488 +07:00 [INF] Executed endpoint 'HTTP: GET /save-person-files'
+2026-05-24 20:21:48.491 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-24 20:21:48.494 +07:00 [INF] Response keluar: 200
+2026-05-24 20:21:48.497 +07:00 [INF] Middleware 1 - After
+2026-05-24 20:21:48.502 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/save-person-files - 200 null application/json; charset=utf-8 319.054ms
+2026-05-24 21:00:13.515 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/read-person-files - application/json 108
+2026-05-24 21:00:13.541 +07:00 [INF] Middleware 1 - Before
+2026-05-24 21:00:13.543 +07:00 [INF] Request masuk: GET /read-person-files
+2026-05-24 21:00:13.546 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-24 21:00:13.550 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-24 21:00:13.551 +07:00 [INF] Response keluar: 404
+2026-05-24 21:00:13.553 +07:00 [INF] Middleware 1 - After
+2026-05-24 21:00:13.555 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/read-person-files - 404 0 null 41.3177ms
+2026-05-24 21:00:13.563 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5045/read-person-files, Response status code: 404
+2026-05-24 21:00:25.851 +07:00 [INF] Application is shutting down...
+2026-05-24 21:00:37.791 +07:00 [INF] Now listening on: http://localhost:5045
+2026-05-24 21:00:37.845 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-24 21:00:37.847 +07:00 [INF] Hosting environment: Development
+2026-05-24 21:00:37.849 +07:00 [INF] Content root path: C:\Users\HP\UserManagementAPI
+2026-05-24 21:02:33.363 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/read-person-files - application/json 108
+2026-05-24 21:02:33.412 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-24 21:02:33.416 +07:00 [INF] Middleware 1 - Before
+2026-05-24 21:02:33.419 +07:00 [INF] Request masuk: GET /read-person-files
+2026-05-24 21:02:33.424 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-24 21:02:33.428 +07:00 [INF] Executing endpoint 'HTTP: GET /read-person-files'
+2026-05-24 21:02:33.511 +07:00 [INF] Setting HTTP status code 200.
+2026-05-24 21:02:33.518 +07:00 [INF] Writing value of type '<>f__AnonymousType0`3' as Json.
+2026-05-24 21:02:33.531 +07:00 [INF] Executed endpoint 'HTTP: GET /read-person-files'
+2026-05-24 21:02:33.533 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-24 21:02:33.535 +07:00 [INF] Response keluar: 200
+2026-05-24 21:02:33.536 +07:00 [INF] Middleware 1 - After
+2026-05-24 21:02:33.539 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/read-person-files - 200 null application/json; charset=utf-8 177.5485ms

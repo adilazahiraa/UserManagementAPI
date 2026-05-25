@@ -1,0 +1,41 @@
+### GET ALL PRODUCTS
+GET http://localhost:5045/api/products
+secret-key: adila123
+
+###
+
+### CREATE PRODUCT
+POST http://localhost:5045/api/products
+Content-Type: application/json
+secret-key: adila123
+
+{
+  "name": "Laptop",
+  "description": "Laptop untuk kerja dan belajar",
+  "price": 7500000
+}
+
+###
+
+### GET PRODUCT BY ID
+GET http://localhost:5045/api/products/1
+secret-key: adila123
+
+###
+
+### UPDATE PRODUCT
+PUT http://localhost:5045/api/products/1
+Content-Type: application/json
+secret-key: adila123
+
+{
+  "name": "Laptop Lenovo",
+  "description": "Laptop untuk coding",
+  "price": 8000000
+}
+
+###
+
+### DELETE PRODUCT
+DELETE http://localhost:5045/api/products/1
+secret-key: adila123

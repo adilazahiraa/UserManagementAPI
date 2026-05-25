@@ -1,0 +1,650 @@
+2026-05-25 10:46:58.814 +07:00 [INF] Now listening on: http://localhost:5045
+2026-05-25 10:46:58.900 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-25 10:46:58.902 +07:00 [INF] Hosting environment: Development
+2026-05-25 10:46:58.904 +07:00 [INF] Content root path: C:\Users\HP\UserManagementAPI
+2026-05-25 10:47:14.903 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/secure-serialize-user - application/json 108
+2026-05-25 10:47:15.032 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-25 10:47:15.041 +07:00 [INF] Middleware 1 - Before
+2026-05-25 10:47:15.048 +07:00 [INF] Request masuk: GET /secure-serialize-user
+2026-05-25 10:47:15.058 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 10:47:15.070 +07:00 [INF] Executing endpoint 'HTTP: GET /secure-serialize-user'
+2026-05-25 10:47:15.111 +07:00 [INF] Setting HTTP status code 200.
+2026-05-25 10:47:15.126 +07:00 [INF] Writing value of type '<>f__AnonymousType1`2' as Json.
+2026-05-25 10:47:15.147 +07:00 [INF] Executed endpoint 'HTTP: GET /secure-serialize-user'
+2026-05-25 10:47:15.150 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-25 10:47:15.153 +07:00 [INF] Response keluar: 200
+2026-05-25 10:47:15.157 +07:00 [INF] Middleware 1 - After
+2026-05-25 10:47:15.165 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/secure-serialize-user - 200 null application/json; charset=utf-8 265.4034ms
+2026-05-25 11:21:10.622 +07:00 [INF] Application is shutting down...
+2026-05-25 11:21:32.084 +07:00 [INF] Now listening on: http://localhost:5045
+2026-05-25 11:21:32.169 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-25 11:21:32.171 +07:00 [INF] Hosting environment: Development
+2026-05-25 11:21:32.173 +07:00 [INF] Content root path: C:\Users\HP\UserManagementAPI
+2026-05-25 11:21:44.025 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/secure-deserialize-user - application/json 108
+2026-05-25 11:21:44.143 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-25 11:21:44.150 +07:00 [INF] Middleware 1 - Before
+2026-05-25 11:21:44.157 +07:00 [INF] Request masuk: GET /secure-deserialize-user
+2026-05-25 11:21:44.167 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 11:21:44.174 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-05-25 11:21:44.177 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-05-25 11:21:44.180 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-25 11:21:44.183 +07:00 [INF] Response keluar: 405
+2026-05-25 11:21:44.186 +07:00 [INF] Middleware 1 - After
+2026-05-25 11:21:44.198 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/secure-deserialize-user - 405 0 null 177.4565ms
+2026-05-25 11:24:14.238 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5045/secure-deserialize-user - application/json 108
+2026-05-25 11:24:14.250 +07:00 [INF] Middleware 1 - Before
+2026-05-25 11:24:14.252 +07:00 [INF] Request masuk: POST /secure-deserialize-user
+2026-05-25 11:24:14.254 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 11:24:14.256 +07:00 [INF] Executing endpoint 'HTTP: POST /secure-deserialize-user'
+2026-05-25 11:24:14.276 +07:00 [INF] Setting HTTP status code 400.
+2026-05-25 11:24:14.279 +07:00 [INF] Writing value of type 'String' as Json.
+2026-05-25 11:24:14.291 +07:00 [INF] Executed endpoint 'HTTP: POST /secure-deserialize-user'
+2026-05-25 11:24:14.294 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-25 11:24:14.296 +07:00 [INF] Response keluar: 400
+2026-05-25 11:24:14.298 +07:00 [INF] Middleware 1 - After
+2026-05-25 11:24:14.300 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5045/secure-deserialize-user - 400 null application/json; charset=utf-8 63.2436ms
+2026-05-25 11:25:10.295 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5045/secure-deserialize-user - application/json,application/json 91
+2026-05-25 11:25:10.303 +07:00 [INF] Middleware 1 - Before
+2026-05-25 11:25:10.307 +07:00 [INF] Request masuk: POST /secure-deserialize-user
+2026-05-25 11:25:10.310 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 11:25:10.312 +07:00 [INF] Executing endpoint 'HTTP: POST /secure-deserialize-user'
+2026-05-25 11:25:10.329 +07:00 [INF] Executed endpoint 'HTTP: POST /secure-deserialize-user'
+2026-05-25 11:25:10.332 +07:00 [ERR] Global exception caught
+System.InvalidOperationException: Unable to read the request as JSON because the request content type 'application/json,application/json' is not a known JSON content type.
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ThrowContentTypeError(HttpRequest request)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync[TValue](HttpRequest request, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Program.<>c.<<<Main>$>b__0_13>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 239
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 93
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 81
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_1>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 59
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 42
+2026-05-25 11:25:10.420 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5045/secure-deserialize-user - 500 null null 125.1345ms
+2026-05-25 11:31:24.708 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5045/secure-deserialize-user - application/json,application/json 91
+2026-05-25 11:31:24.713 +07:00 [INF] Middleware 1 - Before
+2026-05-25 11:31:24.717 +07:00 [INF] Request masuk: POST /secure-deserialize-user
+2026-05-25 11:31:24.719 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 11:31:24.721 +07:00 [INF] Executing endpoint 'HTTP: POST /secure-deserialize-user'
+2026-05-25 11:31:24.724 +07:00 [INF] Executed endpoint 'HTTP: POST /secure-deserialize-user'
+2026-05-25 11:31:24.726 +07:00 [ERR] Global exception caught
+System.InvalidOperationException: Unable to read the request as JSON because the request content type 'application/json,application/json' is not a known JSON content type.
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ThrowContentTypeError(HttpRequest request)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync[TValue](HttpRequest request, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Program.<>c.<<<Main>$>b__0_13>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 239
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 93
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 81
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_1>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 59
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 42
+2026-05-25 11:31:24.740 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5045/secure-deserialize-user - 500 null null 32.0484ms
+2026-05-25 11:47:37.308 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5045/secure-deserialize-user - application/json,application/json 91
+2026-05-25 11:47:37.314 +07:00 [INF] Middleware 1 - Before
+2026-05-25 11:47:37.316 +07:00 [INF] Request masuk: POST /secure-deserialize-user
+2026-05-25 11:47:37.320 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 11:47:37.323 +07:00 [INF] Executing endpoint 'HTTP: POST /secure-deserialize-user'
+2026-05-25 11:47:37.327 +07:00 [INF] Executed endpoint 'HTTP: POST /secure-deserialize-user'
+2026-05-25 11:47:37.330 +07:00 [ERR] Global exception caught
+System.InvalidOperationException: Unable to read the request as JSON because the request content type 'application/json,application/json' is not a known JSON content type.
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ThrowContentTypeError(HttpRequest request)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync[TValue](HttpRequest request, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Program.<>c.<<<Main>$>b__0_13>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext()
+2026-05-25 11:47:37.337 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5045/secure-deserialize-user - 500 null null 28.0792ms
+2026-05-25 11:48:22.901 +07:00 [INF] Application is shutting down...
+2026-05-25 11:48:41.923 +07:00 [INF] Now listening on: http://localhost:5045
+2026-05-25 11:48:42.002 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-25 11:48:42.005 +07:00 [INF] Hosting environment: Development
+2026-05-25 11:48:42.007 +07:00 [INF] Content root path: C:\Users\HP\UserManagementAPI
+2026-05-25 11:48:47.277 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5045/secure-deserialize-user - application/json,application/json 91
+2026-05-25 11:48:47.408 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-25 11:48:47.414 +07:00 [INF] Middleware 1 - Before
+2026-05-25 11:48:47.422 +07:00 [INF] Request masuk: POST /secure-deserialize-user
+2026-05-25 11:48:47.430 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 11:48:47.439 +07:00 [INF] Executing endpoint 'HTTP: POST /secure-deserialize-user'
+2026-05-25 11:48:47.451 +07:00 [INF] Executed endpoint 'HTTP: POST /secure-deserialize-user'
+2026-05-25 11:48:47.454 +07:00 [ERR] Global exception caught
+Microsoft.AspNetCore.Http.BadHttpRequestException: Expected a supported JSON media type but got "application/json,application/json".
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.Log.UnexpectedJsonContentType(HttpContext httpContext, String contentType, Boolean shouldThrow)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<HandleRequestBodyAndCompileRequestDelegateForJson>g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 94
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 82
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_1>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 60
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 43
+2026-05-25 11:48:47.530 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5045/secure-deserialize-user - 500 null null 258.8165ms
+2026-05-25 11:55:18.502 +07:00 [INF] Application is shutting down...
+2026-05-25 11:55:31.258 +07:00 [INF] Now listening on: http://localhost:5045
+2026-05-25 11:55:31.342 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-25 11:55:31.344 +07:00 [INF] Hosting environment: Development
+2026-05-25 11:55:31.346 +07:00 [INF] Content root path: C:\Users\HP\UserManagementAPI
+2026-05-25 11:55:59.000 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5045/secure-deserialize-user - application/json,application/json 91
+2026-05-25 11:55:59.132 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-25 11:55:59.139 +07:00 [INF] Middleware 1 - Before
+2026-05-25 11:55:59.148 +07:00 [INF] Request masuk: POST /secure-deserialize-user
+2026-05-25 11:55:59.157 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 11:55:59.168 +07:00 [INF] Executing endpoint 'HTTP: POST /secure-deserialize-user'
+2026-05-25 11:55:59.178 +07:00 [INF] Executed endpoint 'HTTP: POST /secure-deserialize-user'
+2026-05-25 11:55:59.182 +07:00 [ERR] Global exception caught
+Microsoft.AspNetCore.Http.BadHttpRequestException: Expected a supported JSON media type but got "application/json,application/json".
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.Log.UnexpectedJsonContentType(HttpContext httpContext, String contentType, Boolean shouldThrow)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<HandleRequestBodyAndCompileRequestDelegateForJson>g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 94
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 82
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_1>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 60
+--- End of stack trace from previous location ---
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\HP\UserManagementAPI\Program.cs:line 43
+2026-05-25 11:55:59.303 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5045/secure-deserialize-user - 500 null null 308.8039ms
+2026-05-25 11:56:18.929 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5045/secure-deserialize-user - application/json 91
+2026-05-25 11:56:18.943 +07:00 [INF] Middleware 1 - Before
+2026-05-25 11:56:18.944 +07:00 [INF] Request masuk: POST /secure-deserialize-user
+2026-05-25 11:56:18.947 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 11:56:18.950 +07:00 [INF] Executing endpoint 'HTTP: POST /secure-deserialize-user'
+2026-05-25 11:56:18.995 +07:00 [INF] Setting HTTP status code 200.
+2026-05-25 11:56:19.014 +07:00 [INF] Writing value of type '<>f__AnonymousType2`2' as Json.
+2026-05-25 11:56:19.030 +07:00 [INF] Executed endpoint 'HTTP: POST /secure-deserialize-user'
+2026-05-25 11:56:19.034 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-25 11:56:19.037 +07:00 [INF] Response keluar: 200
+2026-05-25 11:56:19.040 +07:00 [INF] Middleware 1 - After
+2026-05-25 11:56:19.043 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5045/secure-deserialize-user - 200 null application/json; charset=utf-8 115.2628ms
+2026-05-25 11:56:50.315 +07:00 [INF] Application is shutting down...
+2026-05-25 11:57:02.003 +07:00 [INF] Now listening on: http://localhost:5045
+2026-05-25 11:57:02.090 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-25 11:57:02.093 +07:00 [INF] Hosting environment: Development
+2026-05-25 11:57:02.094 +07:00 [INF] Content root path: C:\Users\HP\UserManagementAPI
+2026-05-25 11:57:22.324 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5045/secure-deserialize-user - application/json 91
+2026-05-25 11:57:22.445 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-25 11:57:22.452 +07:00 [INF] Middleware 1 - Before
+2026-05-25 11:57:22.465 +07:00 [INF] Request masuk: POST /secure-deserialize-user
+2026-05-25 11:57:22.473 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 11:57:22.482 +07:00 [INF] Executing endpoint 'HTTP: POST /secure-deserialize-user'
+2026-05-25 11:57:22.527 +07:00 [INF] Setting HTTP status code 200.
+2026-05-25 11:57:22.537 +07:00 [INF] Writing value of type '<>f__AnonymousType2`2' as Json.
+2026-05-25 11:57:22.550 +07:00 [INF] Executed endpoint 'HTTP: POST /secure-deserialize-user'
+2026-05-25 11:57:22.552 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-25 11:57:22.555 +07:00 [INF] Response keluar: 200
+2026-05-25 11:57:22.557 +07:00 [INF] Middleware 1 - After
+2026-05-25 11:57:22.563 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5045/secure-deserialize-user - 200 null application/json; charset=utf-8 242.733ms
+2026-05-25 13:36:09.313 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/api/products - application/json 91
+2026-05-25 13:36:09.346 +07:00 [INF] Middleware 1 - Before
+2026-05-25 13:36:09.349 +07:00 [INF] Request masuk: GET /api/products
+2026-05-25 13:36:09.353 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 13:36:09.358 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.ProductsController.GetProducts (UserManagementAPI)'
+2026-05-25 13:36:09.412 +07:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts() on controller UserManagementAPI.Controllers.ProductsController (UserManagementAPI).
+2026-05-25 13:36:09.433 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.Product, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-25 13:36:09.476 +07:00 [INF] Executed action UserManagementAPI.Controllers.ProductsController.GetProducts (UserManagementAPI) in 50.7951ms
+2026-05-25 13:36:09.482 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.ProductsController.GetProducts (UserManagementAPI)'
+2026-05-25 13:36:09.485 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-25 13:36:09.486 +07:00 [INF] Response keluar: 200
+2026-05-25 13:36:09.489 +07:00 [INF] Middleware 1 - After
+2026-05-25 13:36:09.492 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/api/products - 200 null application/json; charset=utf-8 182.0068ms
+2026-05-25 13:36:54.618 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5045/api/products - application/json 91
+2026-05-25 13:36:54.631 +07:00 [INF] Middleware 1 - Before
+2026-05-25 13:36:54.633 +07:00 [INF] Request masuk: POST /api/products
+2026-05-25 13:36:54.636 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 13:36:54.639 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI)'
+2026-05-25 13:36:54.657 +07:00 [INF] Route matched with {action = "CreateProduct", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateProduct(UserManagementAPI.Models.Product) on controller UserManagementAPI.Controllers.ProductsController (UserManagementAPI).
+2026-05-25 13:36:54.711 +07:00 [INF] Executing CreatedResult, writing value of type 'UserManagementAPI.Models.Product'.
+2026-05-25 13:36:54.724 +07:00 [INF] Executed action UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI) in 60.9211ms
+2026-05-25 13:36:54.727 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI)'
+2026-05-25 13:36:54.729 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-25 13:36:54.731 +07:00 [INF] Response keluar: 201
+2026-05-25 13:36:54.732 +07:00 [INF] Middleware 1 - After
+2026-05-25 13:36:54.734 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5045/api/products - 201 null application/json; charset=utf-8 115.9976ms
+2026-05-25 13:37:06.953 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5045/api/products - application/json 87
+2026-05-25 13:37:06.981 +07:00 [INF] Middleware 1 - Before
+2026-05-25 13:37:06.983 +07:00 [INF] Request masuk: POST /api/products
+2026-05-25 13:37:06.988 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 13:37:06.990 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI)'
+2026-05-25 13:37:06.993 +07:00 [INF] Route matched with {action = "CreateProduct", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateProduct(UserManagementAPI.Models.Product) on controller UserManagementAPI.Controllers.ProductsController (UserManagementAPI).
+2026-05-25 13:37:07.004 +07:00 [INF] Executing CreatedResult, writing value of type 'UserManagementAPI.Models.Product'.
+2026-05-25 13:37:07.010 +07:00 [INF] Executed action UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI) in 12.1404ms
+2026-05-25 13:37:07.013 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI)'
+2026-05-25 13:37:07.015 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-25 13:37:07.017 +07:00 [INF] Response keluar: 201
+2026-05-25 13:37:07.020 +07:00 [INF] Middleware 1 - After
+2026-05-25 13:37:07.022 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5045/api/products - 201 null application/json; charset=utf-8 68.7974ms
+2026-05-25 13:46:52.297 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5045/api/products - application/json 87
+2026-05-25 13:46:52.341 +07:00 [INF] Middleware 1 - Before
+2026-05-25 13:46:52.344 +07:00 [INF] Request masuk: POST /api/products
+2026-05-25 13:46:52.348 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 13:46:52.353 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI)'
+2026-05-25 13:46:52.372 +07:00 [INF] Route matched with {action = "CreateProduct", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateProduct(UserManagementAPI.Models.Product) on controller UserManagementAPI.Controllers.ProductsController (UserManagementAPI).
+2026-05-25 13:46:52.429 +07:00 [INF] Executing CreatedResult, writing value of type 'UserManagementAPI.Models.Product'.
+2026-05-25 13:46:52.444 +07:00 [INF] Executed action UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI) in 66.7633ms
+2026-05-25 13:46:52.449 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI)'
+2026-05-25 13:46:52.456 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-25 13:46:52.459 +07:00 [INF] Response keluar: 201
+2026-05-25 13:46:52.464 +07:00 [INF] Middleware 1 - After
+2026-05-25 13:46:52.468 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5045/api/products - 201 null application/json; charset=utf-8 177.4127ms
+2026-05-25 13:46:57.148 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5045/api/products - application/json 87
+2026-05-25 13:46:57.155 +07:00 [INF] Middleware 1 - Before
+2026-05-25 13:46:57.157 +07:00 [INF] Request masuk: POST /api/products
+2026-05-25 13:46:57.161 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 13:46:57.163 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI)'
+2026-05-25 13:46:57.166 +07:00 [INF] Route matched with {action = "CreateProduct", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateProduct(UserManagementAPI.Models.Product) on controller UserManagementAPI.Controllers.ProductsController (UserManagementAPI).
+2026-05-25 13:46:57.173 +07:00 [INF] Executing CreatedResult, writing value of type 'UserManagementAPI.Models.Product'.
+2026-05-25 13:46:57.177 +07:00 [INF] Executed action UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI) in 6.66ms
+2026-05-25 13:46:57.183 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI)'
+2026-05-25 13:46:57.186 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-25 13:46:57.187 +07:00 [INF] Response keluar: 201
+2026-05-25 13:46:57.188 +07:00 [INF] Middleware 1 - After
+2026-05-25 13:46:57.190 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5045/api/products - 201 null application/json; charset=utf-8 41.9193ms
+2026-05-25 13:47:00.934 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5045/api/products - text/plain 87
+2026-05-25 13:47:00.963 +07:00 [INF] Middleware 1 - Before
+2026-05-25 13:47:00.964 +07:00 [INF] Request masuk: POST /api/products
+2026-05-25 13:47:00.966 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 13:47:00.968 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI)'
+2026-05-25 13:47:00.970 +07:00 [INF] Route matched with {action = "CreateProduct", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateProduct(UserManagementAPI.Models.Product) on controller UserManagementAPI.Controllers.ProductsController (UserManagementAPI).
+2026-05-25 13:47:01.015 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2026-05-25 13:47:01.134 +07:00 [INF] Executed action UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI) in 158.1061ms
+2026-05-25 13:47:01.137 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI)'
+2026-05-25 13:47:01.141 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-25 13:47:01.143 +07:00 [INF] Response keluar: 415
+2026-05-25 13:47:01.145 +07:00 [INF] Middleware 1 - After
+2026-05-25 13:47:01.147 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5045/api/products - 415 null application/problem+json; charset=utf-8 213.1156ms
+2026-05-25 13:48:28.383 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5045/api/products - application/json 87
+2026-05-25 13:48:28.391 +07:00 [INF] Middleware 1 - Before
+2026-05-25 13:48:28.393 +07:00 [INF] Request masuk: POST /api/products
+2026-05-25 13:48:28.395 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 13:48:28.397 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI)'
+2026-05-25 13:48:28.399 +07:00 [INF] Route matched with {action = "CreateProduct", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateProduct(UserManagementAPI.Models.Product) on controller UserManagementAPI.Controllers.ProductsController (UserManagementAPI).
+2026-05-25 13:48:28.405 +07:00 [INF] Executing CreatedResult, writing value of type 'UserManagementAPI.Models.Product'.
+2026-05-25 13:48:28.409 +07:00 [INF] Executed action UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI) in 5.3815ms
+2026-05-25 13:48:28.413 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI)'
+2026-05-25 13:48:28.415 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-25 13:48:28.417 +07:00 [INF] Response keluar: 201
+2026-05-25 13:48:28.419 +07:00 [INF] Middleware 1 - After
+2026-05-25 13:48:28.421 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5045/api/products - 201 null application/json; charset=utf-8 37.3032ms
+2026-05-25 13:54:46.118 +07:00 [INF] Application is shutting down...
+2026-05-25 13:55:05.938 +07:00 [INF] Now listening on: http://localhost:5045
+2026-05-25 13:55:06.021 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-25 13:55:06.023 +07:00 [INF] Hosting environment: Development
+2026-05-25 13:55:06.025 +07:00 [INF] Content root path: C:\Users\HP\UserManagementAPI
+2026-05-25 13:55:20.930 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5045/api/products - application/json 87
+2026-05-25 13:55:21.070 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-25 13:55:21.080 +07:00 [INF] Middleware 1 - Before
+2026-05-25 13:55:21.086 +07:00 [INF] Request masuk: POST /api/products
+2026-05-25 13:55:21.095 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 13:55:21.103 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI)'
+2026-05-25 13:55:21.134 +07:00 [INF] Route matched with {action = "CreateProduct", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateProduct(UserManagementAPI.Models.Product) on controller UserManagementAPI.Controllers.ProductsController (UserManagementAPI).
+2026-05-25 13:55:21.217 +07:00 [INF] Executing CreatedResult, writing value of type 'UserManagementAPI.Models.Product'.
+2026-05-25 13:55:21.244 +07:00 [INF] Executed action UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI) in 95.8392ms
+2026-05-25 13:55:21.249 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.ProductsController.CreateProduct (UserManagementAPI)'
+2026-05-25 13:55:21.253 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-25 13:55:21.256 +07:00 [INF] Response keluar: 201
+2026-05-25 13:55:21.259 +07:00 [INF] Middleware 1 - After
+2026-05-25 13:55:21.264 +07:00 [INF] Request POST /api/products took 187.6851 ms
+2026-05-25 13:55:21.271 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5045/api/products - 201 null application/json; charset=utf-8 345.3194ms
+2026-05-25 13:55:25.863 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5045/api/products - application/json 87
+2026-05-25 13:55:25.890 +07:00 [INF] Request POST /api/products took 11.0694 ms
+2026-05-25 13:55:25.895 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5045/api/products - 401 null null 33.0712ms
+2026-05-25 14:10:14.103 +07:00 [INF] Application is shutting down...
+2026-05-25 14:10:25.017 +07:00 [INF] Now listening on: http://localhost:5045
+2026-05-25 14:10:25.060 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-25 14:10:25.061 +07:00 [INF] Hosting environment: Development
+2026-05-25 14:10:25.063 +07:00 [INF] Content root path: C:\Users\HP\UserManagementAPI
+2026-05-25 14:10:54.368 +07:00 [INF] Application is shutting down...
+2026-05-25 14:10:59.789 +07:00 [INF] Now listening on: http://localhost:5045
+2026-05-25 14:10:59.833 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-25 14:10:59.835 +07:00 [INF] Hosting environment: Development
+2026-05-25 14:10:59.837 +07:00 [INF] Content root path: C:\Users\HP\UserManagementAPI
+2026-05-25 14:11:16.383 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/api/products - application/json 87
+2026-05-25 14:11:16.443 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-25 14:11:16.453 +07:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /api/products
+Accept: */*
+Connection: keep-alive
+Host: localhost:5045
+User-Agent: PostmanRuntime/7.53.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 87
+secret-key: [Redacted]
+Postman-Token: [Redacted]
+2026-05-25 14:11:16.457 +07:00 [INF] Middleware 1 - Before
+2026-05-25 14:11:16.461 +07:00 [INF] Request masuk: GET /api/products
+2026-05-25 14:11:16.463 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 14:11:16.467 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.ProductsController.GetProducts (UserManagementAPI)'
+2026-05-25 14:11:16.483 +07:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts() on controller UserManagementAPI.Controllers.ProductsController (UserManagementAPI).
+2026-05-25 14:11:16.493 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.Product, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-25 14:11:16.509 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2026-05-25 14:11:16.522 +07:00 [INF] Executed action UserManagementAPI.Controllers.ProductsController.GetProducts (UserManagementAPI) in 31.4716ms
+2026-05-25 14:11:16.525 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.ProductsController.GetProducts (UserManagementAPI)'
+2026-05-25 14:11:16.526 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-25 14:11:16.527 +07:00 [INF] Response keluar: 200
+2026-05-25 14:11:16.528 +07:00 [INF] Middleware 1 - After
+2026-05-25 14:11:16.530 +07:00 [INF] Request GET /api/products took 73.6733 ms
+2026-05-25 14:11:16.532 +07:00 [INF] RequestBody: [Not consumed by app]
+2026-05-25 14:11:16.534 +07:00 [INF] ResponseBody: []
+2026-05-25 14:11:16.538 +07:00 [INF] Duration: 87.7349ms
+2026-05-25 14:11:16.542 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/api/products - 200 null application/json; charset=utf-8 161.2381ms
+2026-05-25 14:23:18.336 +07:00 [INF] Application is shutting down...
+2026-05-25 14:23:29.105 +07:00 [INF] Now listening on: http://localhost:5045
+2026-05-25 14:23:29.221 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-25 14:23:29.223 +07:00 [INF] Hosting environment: Development
+2026-05-25 14:23:29.225 +07:00 [INF] Content root path: C:\Users\HP\UserManagementAPI
+2026-05-25 14:23:38.380 +07:00 [INF] Application is shutting down...
+2026-05-25 14:37:04.533 +07:00 [INF] Now listening on: http://localhost:5045
+2026-05-25 14:37:04.632 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-25 14:37:04.634 +07:00 [INF] Hosting environment: Development
+2026-05-25 14:37:04.637 +07:00 [INF] Content root path: C:\Users\HP\UserManagementAPI
+2026-05-25 14:38:11.619 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/swagger - null null
+2026-05-25 14:38:11.892 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/swagger - 301 null null 277.3121ms
+2026-05-25 14:38:11.906 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/swagger/index.html - null null
+2026-05-25 14:38:12.049 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/swagger/index.html - 200 null text/html;charset=utf-8 144.0038ms
+2026-05-25 14:38:12.149 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/swagger/swagger-ui.css - null null
+2026-05-25 14:38:12.150 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/swagger/index.css - null null
+2026-05-25 14:38:12.152 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/swagger/swagger-ui-bundle.js - null null
+2026-05-25 14:38:12.153 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/swagger/index.js - null null
+2026-05-25 14:38:12.153 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-25 14:38:12.156 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-25 14:38:12.184 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/swagger/index.js - 200 null application/javascript;charset=utf-8 31.5443ms
+2026-05-25 14:38:12.202 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/_framework/aspnetcore-browser-refresh.js - 200 14901 application/javascript; charset=utf-8 46.5949ms
+2026-05-25 14:38:12.215 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/swagger/swagger-ui.css - 200 26479 text/css 65.8159ms
+2026-05-25 14:38:12.215 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/swagger/index.css - 200 152 text/css 65.3952ms
+2026-05-25 14:38:12.224 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/swagger/swagger-ui-standalone-preset.js - 200 76613 text/javascript 71.7842ms
+2026-05-25 14:38:12.267 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/swagger/swagger-ui-bundle.js - 200 418181 text/javascript 115.0946ms
+2026-05-25 14:38:12.599 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/swagger/v1/swagger.json - null null
+2026-05-25 14:38:12.659 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/swagger/favicon-32x32.png - null null
+2026-05-25 14:38:12.667 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/swagger/favicon-32x32.png - 200 628 image/png 8.5274ms
+2026-05-25 14:38:12.876 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 277.1105ms
+2026-05-25 14:41:46.778 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/api/products - null null
+2026-05-25 14:41:46.798 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-25 14:41:46.819 +07:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /api/products
+Accept: */*
+Connection: keep-alive
+Host: localhost:5045
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2026-05-25 14:41:46.833 +07:00 [INF] Middleware 1 - Before
+2026-05-25 14:41:46.842 +07:00 [INF] Request masuk: GET /api/products
+2026-05-25 14:41:46.853 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 14:41:46.858 +07:00 [INF] Response:
+StatusCode: 401
+2026-05-25 14:41:46.863 +07:00 [WRN] Middleware 2 - Request ditolak
+2026-05-25 14:41:46.868 +07:00 [INF] Response keluar: 401
+2026-05-25 14:41:46.871 +07:00 [INF] Middleware 1 - After
+2026-05-25 14:41:46.875 +07:00 [INF] Request GET /api/products took 50.129 ms
+2026-05-25 14:41:46.887 +07:00 [INF] Duration: 70.2483ms
+2026-05-25 14:41:46.893 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/api/products - 401 null null 131.1982ms
+2026-05-25 14:42:14.091 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5045/api/products - application/json 73
+2026-05-25 14:42:14.106 +07:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/products
+Accept: */*
+Connection: keep-alive
+Host: localhost:5045
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 73
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2026-05-25 14:42:14.110 +07:00 [INF] Response:
+StatusCode: 401
+2026-05-25 14:42:14.113 +07:00 [INF] Request POST /api/products took 2.9823 ms
+2026-05-25 14:42:14.129 +07:00 [INF] RequestBody: [Not consumed by app]
+2026-05-25 14:42:14.131 +07:00 [INF] Duration: 26.0439ms
+2026-05-25 14:42:14.135 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5045/api/products - 401 null null 43.7882ms
+2026-05-25 15:15:23.490 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/swagger/v1/swagger.json - null null
+2026-05-25 15:15:23.589 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 101.5214ms
+2026-05-25 15:15:23.639 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/favicon.ico - null null
+2026-05-25 15:15:23.642 +07:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Connection: keep-alive
+Host: localhost:5045
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2026-05-25 15:15:23.643 +07:00 [INF] Middleware 1 - Before
+2026-05-25 15:15:23.644 +07:00 [INF] Request masuk: GET /favicon.ico
+2026-05-25 15:15:23.646 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 15:15:23.647 +07:00 [INF] Response:
+StatusCode: 401
+2026-05-25 15:15:23.648 +07:00 [WRN] Middleware 2 - Request ditolak
+2026-05-25 15:15:23.649 +07:00 [INF] Response keluar: 401
+2026-05-25 15:15:23.650 +07:00 [INF] Middleware 1 - After
+2026-05-25 15:15:23.651 +07:00 [INF] Request GET /favicon.ico took 8.1457 ms
+2026-05-25 15:15:23.653 +07:00 [INF] Duration: 11.2898ms
+2026-05-25 15:15:23.654 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/favicon.ico - 401 null null 15.8375ms
+2026-05-25 15:17:28.086 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/swagger/v1/swagger.json - null null
+2026-05-25 15:17:28.098 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.3292ms
+2026-05-25 15:41:09.259 +07:00 [INF] Application is shutting down...
+2026-05-25 15:41:24.301 +07:00 [INF] Now listening on: http://localhost:5045
+2026-05-25 15:41:24.357 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-25 15:41:24.359 +07:00 [INF] Hosting environment: Development
+2026-05-25 15:41:24.360 +07:00 [INF] Content root path: C:\Users\HP\UserManagementAPI
+2026-05-25 15:42:23.668 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/api/products?secure=true&authenticated=true&input=abc123 - application/json 87
+2026-05-25 15:42:23.768 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-25 15:42:23.906 +07:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /api/products
+Accept: */*
+Connection: keep-alive
+Host: localhost:5045
+User-Agent: PostmanRuntime/7.53.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 87
+secret-key: [Redacted]
+Postman-Token: [Redacted]
+2026-05-25 15:42:23.911 +07:00 [INF] Middleware 1 - Before
+2026-05-25 15:42:23.916 +07:00 [INF] Request masuk: GET /api/products
+2026-05-25 15:42:23.919 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 15:42:23.922 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.ProductsController.GetProducts (UserManagementAPI)'
+2026-05-25 15:42:23.939 +07:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts() on controller UserManagementAPI.Controllers.ProductsController (UserManagementAPI).
+2026-05-25 15:42:23.950 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.Product, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-25 15:42:23.970 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Set-Cookie: [Redacted]
+2026-05-25 15:42:23.977 +07:00 [INF] Executed action UserManagementAPI.Controllers.ProductsController.GetProducts (UserManagementAPI) in 31.7305ms
+2026-05-25 15:42:23.980 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.ProductsController.GetProducts (UserManagementAPI)'
+2026-05-25 15:42:23.982 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-25 15:42:23.983 +07:00 [INF] Response keluar: 200
+2026-05-25 15:42:23.985 +07:00 [INF] Middleware 1 - After
+2026-05-25 15:42:23.987 +07:00 [INF] Request GET /api/products took 77.2685 ms
+2026-05-25 15:42:23.990 +07:00 [INF] RequestBody: [Not consumed by app]
+2026-05-25 15:42:23.993 +07:00 [INF] ResponseBody: []
+2026-05-25 15:42:23.997 +07:00 [INF] Duration: 93.6757ms
+2026-05-25 15:42:24.003 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/api/products?secure=true&authenticated=true&input=abc123 - 200 null application/json; charset=utf-8 338.5276ms
+2026-05-25 15:42:29.300 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/api/products?secure=true&authenticated=true&input=abc123 - application/json 87
+2026-05-25 15:42:29.409 +07:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /api/products
+Accept: */*
+Connection: keep-alive
+Host: localhost:5045
+User-Agent: PostmanRuntime/7.53.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Cookie: [Redacted]
+Content-Length: 87
+secret-key: [Redacted]
+secure: [Redacted]
+Postman-Token: [Redacted]
+2026-05-25 15:42:29.413 +07:00 [INF] Middleware 1 - Before
+2026-05-25 15:42:29.414 +07:00 [INF] Request masuk: GET /api/products
+2026-05-25 15:42:29.416 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 15:42:29.418 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.ProductsController.GetProducts (UserManagementAPI)'
+2026-05-25 15:42:29.420 +07:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts() on controller UserManagementAPI.Controllers.ProductsController (UserManagementAPI).
+2026-05-25 15:42:29.422 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.Product, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-25 15:42:29.426 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Set-Cookie: [Redacted]
+2026-05-25 15:42:29.429 +07:00 [INF] Executed action UserManagementAPI.Controllers.ProductsController.GetProducts (UserManagementAPI) in 6.9172ms
+2026-05-25 15:42:29.431 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.ProductsController.GetProducts (UserManagementAPI)'
+2026-05-25 15:42:29.433 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-25 15:42:29.434 +07:00 [INF] Response keluar: 200
+2026-05-25 15:42:29.435 +07:00 [INF] Middleware 1 - After
+2026-05-25 15:42:29.437 +07:00 [INF] Request GET /api/products took 23.5716 ms
+2026-05-25 15:42:29.439 +07:00 [INF] RequestBody: [Not consumed by app]
+2026-05-25 15:42:29.441 +07:00 [INF] ResponseBody: []
+2026-05-25 15:42:29.442 +07:00 [INF] Duration: 33.0259ms
+2026-05-25 15:42:29.446 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/api/products?secure=true&authenticated=true&input=abc123 - 200 null application/json; charset=utf-8 146.6921ms
+2026-05-25 15:42:34.949 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/api/products?secure=true&authenticated=true&input=abc123 - application/json 87
+2026-05-25 15:42:35.050 +07:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /api/products
+Accept: */*
+Connection: keep-alive
+Host: localhost:5045
+User-Agent: PostmanRuntime/7.53.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Cookie: [Redacted]
+Content-Length: 87
+secret-key: [Redacted]
+authenticated: [Redacted]
+Postman-Token: [Redacted]
+2026-05-25 15:42:35.052 +07:00 [INF] Middleware 1 - Before
+2026-05-25 15:42:35.053 +07:00 [INF] Request masuk: GET /api/products
+2026-05-25 15:42:35.055 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 15:42:35.056 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.ProductsController.GetProducts (UserManagementAPI)'
+2026-05-25 15:42:35.058 +07:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts() on controller UserManagementAPI.Controllers.ProductsController (UserManagementAPI).
+2026-05-25 15:42:35.060 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.Product, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-25 15:42:35.062 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Set-Cookie: [Redacted]
+2026-05-25 15:42:35.064 +07:00 [INF] Executed action UserManagementAPI.Controllers.ProductsController.GetProducts (UserManagementAPI) in 3.428ms
+2026-05-25 15:42:35.066 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.ProductsController.GetProducts (UserManagementAPI)'
+2026-05-25 15:42:35.067 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-25 15:42:35.069 +07:00 [INF] Response keluar: 200
+2026-05-25 15:42:35.070 +07:00 [INF] Middleware 1 - After
+2026-05-25 15:42:35.071 +07:00 [INF] Request GET /api/products took 18.5242 ms
+2026-05-25 15:42:35.073 +07:00 [INF] RequestBody: [Not consumed by app]
+2026-05-25 15:42:35.074 +07:00 [INF] ResponseBody: []
+2026-05-25 15:42:35.075 +07:00 [INF] Duration: 25.7342ms
+2026-05-25 15:42:35.077 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/api/products?secure=true&authenticated=true&input=abc123 - 200 null application/json; charset=utf-8 128.0713ms
+2026-05-25 15:43:30.755 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/api/products - application/json 87
+2026-05-25 15:43:30.760 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/api/products - 400 null null 5.2282ms
+2026-05-25 15:43:42.134 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/api/products?secure=true - application/json 87
+2026-05-25 15:43:42.137 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/api/products?secure=true - 403 null null 2.8944ms
+2026-05-25 15:43:50.252 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/api/products?secure=true&authenticated=true&input=%3Cscript%3E - application/json 87
+2026-05-25 15:43:50.258 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/api/products?secure=true&authenticated=true&input=%3Cscript%3E - 400 null null 6.0878ms
+2026-05-25 15:43:58.784 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/unauthorized?secure=true&authenticated=true - application/json 87
+2026-05-25 15:43:58.789 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/unauthorized?secure=true&authenticated=true - 401 null null 5.0935ms
+2026-05-25 15:44:08.712 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5045/api/products?secure=true&authenticated=true&input=abc123 - application/json 87
+2026-05-25 15:44:08.826 +07:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /api/products
+Accept: */*
+Connection: keep-alive
+Host: localhost:5045
+User-Agent: PostmanRuntime/7.53.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Cookie: [Redacted]
+Content-Length: 87
+secret-key: [Redacted]
+Postman-Token: [Redacted]
+2026-05-25 15:44:08.827 +07:00 [INF] Middleware 1 - Before
+2026-05-25 15:44:08.829 +07:00 [INF] Request masuk: GET /api/products
+2026-05-25 15:44:08.830 +07:00 [INF] Middleware 2 - Before cek secret-key
+2026-05-25 15:44:08.831 +07:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.ProductsController.GetProducts (UserManagementAPI)'
+2026-05-25 15:44:08.832 +07:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts() on controller UserManagementAPI.Controllers.ProductsController (UserManagementAPI).
+2026-05-25 15:44:08.834 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.Product, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-25 15:44:08.835 +07:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Set-Cookie: [Redacted]
+2026-05-25 15:44:08.836 +07:00 [INF] Executed action UserManagementAPI.Controllers.ProductsController.GetProducts (UserManagementAPI) in 2.1182ms
+2026-05-25 15:44:08.839 +07:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.ProductsController.GetProducts (UserManagementAPI)'
+2026-05-25 15:44:08.840 +07:00 [INF] Middleware 2 - After secret-key valid
+2026-05-25 15:44:08.841 +07:00 [INF] Response keluar: 200
+2026-05-25 15:44:08.842 +07:00 [INF] Middleware 1 - After
+2026-05-25 15:44:08.843 +07:00 [INF] Request GET /api/products took 15.4429 ms
+2026-05-25 15:44:08.844 +07:00 [INF] RequestBody: [Not consumed by app]
+2026-05-25 15:44:08.846 +07:00 [INF] ResponseBody: []
+2026-05-25 15:44:08.847 +07:00 [INF] Duration: 21.2299ms
+2026-05-25 15:44:08.848 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5045/api/products?secure=true&authenticated=true&input=abc123 - 200 null application/json; charset=utf-8 136.1888ms
+2026-05-25 16:26:23.406 +07:00 [INF] Application is shutting down...
+2026-05-25 16:26:39.240 +07:00 [INF] Now listening on: http://localhost:5045
+2026-05-25 16:26:39.313 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-25 16:26:39.315 +07:00 [INF] Hosting environment: Development
+2026-05-25 16:26:39.317 +07:00 [INF] Content root path: C:\Users\HP\UserManagementAPI
+2026-05-25 16:34:21.385 +07:00 [INF] Application is shutting down...
